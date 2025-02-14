@@ -14,7 +14,7 @@
         class="max-auto flex max-w-7xl items-center justify-between p-6 lg:px-10"
       >
         <div class="select-none text-2xl font-bold">H.Smart</div>
-        <!-- Nav Links -->
+        <!-- MARK: Nav Links -->
         <ul
           class="fixed inset-0 hidden flex-col items-center justify-center gap-6 bg-gray-900 text-xl md:static md:flex md:flex-row md:bg-transparent"
           id="menu"
@@ -42,6 +42,18 @@
         </button>
       </div>
     </nav>
+    <!-- MARK: Hero section -->
+     <section class="relative flex min-h-screen items-center justify-center px-6 text-center">
+      <video src="image/hero-bg-video.mp4" poster="image/hero-bg-fallback.jpg" autoplay loop muted class="absolute top-0 h-full w-full object-cover"></video>
+      <!-- Video overly -->
+      <div class="absolute inset-0 bg-black/50"></div>
+      <!-- Hero content -->
+      <div class="relative max-w-2xl">
+        <h1 class="mb-4 text-4xl font-bold">Discover the Future of Fitness</h1>
+        <p class="mb-8 text-xl">Trach your healt, achieve your goal, and stay connected with Hossaini Smartwatch.</p>
+        <a href="#pricing" class="rounded-full bg-teal-500 px-6 py-3 text-white shadow-lg hover:bg-teal-400">Pre-Order Now</a>
+      </div>
+    </section>
     <script src="app.js"></script>
   </body>
 </html>
