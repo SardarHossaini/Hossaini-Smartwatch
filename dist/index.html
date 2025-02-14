@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,7 +7,41 @@
     <link rel="stylesheet" href="output.css" />
     <title>Hossaini Smartwatch</title>
   </head>
-  <body>
-    <h1 class="text-red-600 font-bold text-2xl">Hello World</h1>
+  <body class="bg-gray-900 text-white">
+    <!-- Navbar -->
+    <nav class="absolute w-full z-10">
+      <div
+        class="max-auto flex max-w-7xl items-center justify-between p-6 lg:px-10"
+      >
+        <div class="select-none text-2xl font-bold">H.Smart</div>
+        <!-- Nav Links -->
+        <ul
+          class="fixed inset-0 hidden flex-col items-center justify-center gap-6 bg-gray-900 text-xl md:static md:flex md:flex-row md:bg-transparent"
+          id="menu"
+        >
+          <li><a href="#features" class="hover:text-teal-400">Features</a></li>
+          <li>
+            <a href="#how-it-works" class="hover:text-teal-400">How it works</a>
+          </li>
+          <li><a href="#pricing" class="hover:text-teal-400">Pricing</a></li>
+          <li>
+            <a href="#testimonial" class="hover:text-teal-400">Testimonial</a>
+          </li>
+          <li><a href="#faq" class="hover:text-teal-400">FAQ</a></li>
+          <!-- close menu button -->
+          <button class="text-3xl outline-none hover:text-teal-400 md:hidden">
+            &times;
+          </button>
+        </ul>
+        <!-- hamburger btn -->
+        <button
+          class="text-3xl outline-none hover:text-teal-400 md:hidden"
+          id="menu-btn"
+        >
+          &#9776
+        </button>
+      </div>
+    </nav>
+    <script src="app.js"></script>
   </body>
 </html>
