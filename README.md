@@ -27,6 +27,8 @@ git clone https://github.com/sardarhussaini2022/Hossaini-Decoration.git
 
 2. Open the index.html file in your web browser.
 
+<b>[Live Demo](https://hsmartwatch.netlify.app/)</b>
+
 ## My Contact
 
 - [sardarhossaini2022@gmail.com](mailto:sardarhossaini2022@gmail.com)
